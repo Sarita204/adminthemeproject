@@ -1,17 +1,23 @@
+body {
+    background-color: #eef0f1;
+    font-size: 13px;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .header {
-    height: 65px;
-    border:1px solid red;
+    height: 60px;
+    border:1px solid rgb(199, 199, 199);
     padding: 0;
     width: 100%;
     align-items: inherit;
     background-color: #ffffff;
+    margin-top: -9px;
 
 }
 
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    margin: 8.5px 8.5px;
+    margin: 9px 11px;
     padding: 0px 2px;
     width: 9px;
     font-size: smaller;
@@ -21,11 +27,13 @@
 .menubar {
     background-color: #0cb572;
     height: 30px;
-    width: 35px;
-    margin: 15px 0px 16px 16px;
+    width: 37px;
     color: #fff;
-    background-color: #1ab394;
     border-color: #1ab394;
+    border-radius: 3px;
+    display: flex;
+    float: left;
+    margin: 13px 0px 0px 18px;
 }
 .search {
     float: left;
@@ -52,13 +60,68 @@
 .search-items{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: medium none;
-    font-size: 14px;
+    font-size: 14.5px;
     height: 60px;
-    margin: -44px 0px 3px 45px;
-    z-index: 2000;
+    margin: 0px 0px 3px 16px;
+  
 }
 .content {
     display: flex;
     float: right;
-    margin: -48px 208px 0px 1px;
+    margin: 22px 188px 0px 1px;
+    font-size: 13.5px;
+    color:#888888;
+    width: 275px;
+
+}
+
+.message {
+   display: flex;
+   float: right;
+   margin: 14.2px -306px 5px -3px;
+}
+
+.label-warning {
+    background-color: #f8ac59;
+    color: #FFFFFF;
+}
+.label {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    padding: 2px 4px 2px 4px;
+    margin: -5px 32px 18px -19px;
+    border-radius: 0.25em;
+    font-size: 10px;
+}
+.notification {
+    display: flex;
+    float: right;
+    margin: 14.2px -347px 1px 0px;
+    
+ }
+
+.label-warning1 {
+    background-color: #1ab394;
+    color: #FFFFFF;
+    padding: 2px 5px 2px 5px;
+    margin: -4px 33px 18px -16px;
+
+}
+.signout {
+    display: flex;
+    float: right;
+    margin: 14px -354px 1px 0px;
+}
+.logout {
+    display: flex;
+    float: right;
+    margin: 20px -403px 1px 0px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:#888888;
+    font-size: 14.5px;
+} 
+.controller {
+    display: flex;
+    float: right;
+    margin: 14px -448px 1px 0px;
 }
